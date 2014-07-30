@@ -1,0 +1,178 @@
+body {margin-left: 10%; margin-right: 10%;}
+
+pre {color: #000; background-color: #FFF; padding: 1em;}
+
+img {border: none;}
+
+hr {width: 80%; margin-top: 1em; margin-bottom: 1em;}
+hr.mid {width: 50%;}
+hr.tiny {width: 20%;}
+
+div.poem {margin-top: .5em; margin-bottom: .5em; margin-left: 2em;
+font-size: 90%;}
+
+a.tag {text-decoration: none; vertical-align: .3em; font-size: 80%;
+line-height: 0em; padding-left: .2em;}
+a.plain {text-decoration: none;}
+
+sup {font-size: 85%}
+sup {font-size: 75%}
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: 1.5; margin-top: 0em;
+margin-bottom: 0em;}
+
+h1 {font-size: 200%;}
+h2 {font-size: 150%;}
+h3 {font-size: 125%;}
+h3.chapter {margin-top: 4em;}
+h4 {font-size: 115%;}
+h4.chapter {letter-spacing: .15em; margin-top: 3em; margin-bottom: 1.5em;}
+h5 {font-size: 100%;}
+h5.section {margin-top: 2em; margin-bottom: 1em;}
+h6 {font-size: 85%;}
+
+p, blockquote {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+
+blockquote {margin-left: 1em; margin-right: 1em; font-size: 92%;}
+
+p.illustration {text-align: center; margin-top: 1em; margin-bottom: 1em;}
+/* segmented pictures for wrap */
+p.picture {padding: 0em; margin: .5em 0em 0em 0em;}
+
+p.caption, p.capleft {margin-top: .5em; margin-bottom: 1em;
+font-family: sans-serif; font-size: 85%;}
+p.caption {text-align: center;}
+
+p.footnote, div.footnotes {font-size: 90%; margin-right: 2em; margin-left: 2em;}
+
+p.inset {padding-left: 1.5em;}
+p.inset2 {padding-left: 3em;}
+p.inset3 {padding-left: 4.5em;}
+
+p.hanging {margin-left: 3em; margin-right: 2em; text-indent: -1em;}
+
+p.floatleft {float: left; clear: left; padding-right: 1em;}
+p.floatright {float: right; clear: right; padding-left: 1em;}
+
+p.noclear {clear: none;}
+
+.rightside {text-align: right;}
+.rightpad {text-align: right; padding-right: 2em;}
+.rightpad2 {text-align: right; padding-right: 4em;}
+.leftpad {padding-left: 2em;}
+.leftpad2 {padding-left: 4em;}
+
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto; margin-top: 1em; margin-bottom: 1em; border-collapse: collapse;}
+
+table.lines {border-top: thin solid; border-bottom: thin solid; border-left: hidden; border-right: hidden; font-size: 90%;}
+
+table.toc, table.index {width: 90%; margin-right: auto; margin-left: auto; font-size: 92%; margin-bottom: 0em;}
+/* TOC and index use td class "number" */
+
+table.figright {float: right; clear: both; margin: .5em 0em .3em .5em;
+padding-left: 1em;}
+/* must specify all margins for it to work in mozilla */
+table.figures {margin-top: .5em; margin-bottom: .5em;}
+
+table.text {font-size: 90%;}
+table.inline {margin-left: 0em;}
+table.border {border: 1px solid; font-size: 90%;}
+
+th {text-align: center; font-weight: normal; font-style: normal; padding: .5em;}
+
+td {vertical-align: top; text-align: left; padding: .1em 1em .1em 0em;}
+
+/* td {border: thin solid green;} */
+
+td.inset {padding-left: 1em;}
+td.inset2 {padding-left: 2em;}
+td.inset3 {padding-left: 3em;}
+
+td.picture {text-align: center; vertical-align: middle;
+padding: .5em 1em;}
+/* called "figure" in original Pueblo */
+td.caption {font-family: sans-serif; font-size: 85%; text-align: center;
+padding: .5em;}
+
+td.letterhead {padding-left: 20%; font-weight: bold; padding-top: 1em; padding-bottom: .5em;}
+
+td.number, td.item {text-align: right;}
+td.number.roman {font-size: 80%; padding-right: 1.25em;}
+
+td.topline {border-top: thin solid; padding-top: .3em;}
+td.center {text-align: center;}
+td.middle {vertical-align: middle;}
+td.narrow {width: 4em;}
+
+td.filler {font-size: .1em; padding: 0em;}
+
+td.bottompad {padding-bottom: 1em;}
+td.rightpad {padding-right: 4em; white-space: nowrap;}
+td.leftline {border-left: 1px dotted; padding-left: .5em;}
+td.rightline {border-right: 1px dotted; padding-right: .5em;}
+
+
+/* text formatting */
+
+.invisible {visibility: hidden;}
+
+span.caption {font-family: sans-serif; font-size: 85%;}
+
+span.floatright {float: right; clear: right; padding: .5em 0em .3em 1em;}
+span.floatleft {float: left; clear: left; padding: .5em 1em .3em 0em;}
+
+.smallroman {font-size: 0.8em;}
+.smallcaps {font-variant: small-caps;}
+.extended {letter-spacing: 0.15em;}
+.sans {font-family: sans-serif; font-size: 92%;}
+
+/* additions */
+
+ins.correction {text-decoration: none; border-bottom: thin dotted red;}
+ins.translit {text-decoration: none; border-bottom: thin dotted blue;}
+
+.pagenum {position: absolute; right: 5%; font-size: 90%;
+font-weight: normal; font-style: normal; text-align: right;
+text-indent: 0em;}
+.pagenum.roman {font-size: 75%;}
+
+p.mynote, div.mynote {padding: .5em; background-color: #DDE; color: #000; font-family: sans-serif; font-size: 90%; margin: 1em 5% 0em;}
+
+.contents {font-family: sans-serif; margin-left: 1.5em; text-indent: -1.5em;}
+
+
+/* conditional */
+
+div.title h1, div.title h2, div.title h3, div.title h4, div.title h5, div.title h6 {margin-top: 18px;}
+
+div.report h5 {margin-top: 1.5em; margin-bottom: 1em;}
+div.report h6 {margin-top: 1em; margin-bottom: .75em;}
+h6 + div.report h6 {margin-top: .75em;}
+p + h6 {margin-top: 1em;}
+
+div.poem p {margin-left: 4em; text-indent: -4em; margin-top: 0em;}
+div.poem p.first {margin-top: .5em;}
+
+table a {text-decoration: none;}
+
+table.toc td {padding-right: .5em; padding-top: 0em; padding-bottom: 0em;}
+
+table.toc p, table.lines p, table.text p {line-height: normal; margin: 0em 0em 0em 1em; text-indent: -1em;}
+table.index p {line-height: normal; margin: 0em 0em 0em 2em;
+text-indent: -2em;}
+table.index td.number, table.toc td.number {vertical-align: bottom;}
+table.index + table.index {margin-top: 0em;}
+
+table.lines td {border-right: thin solid; border-left: thin solid;}
+table.lines th {border: thin solid;}
+
+/* from Pueblo */
+table.border td {border-left: 1px solid; border-right: 1px solid;
+text-align: center; padding: .1em 1em .1em 1em;}
+table.border th {border: 1px solid; padding: .3em 1em .3em 1em;}
+
+p.picture + p.picture {margin-top: 0em;}
