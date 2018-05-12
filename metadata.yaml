@@ -28,6 +28,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/7040
     wikipedia: http://en.wikipedia.org/wiki/John_Wesley_Powell
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/20784#Eighth-Annual-ReportOffice-Washington-1891
 gutenberg_issued: '2007-03-08'
 gutenberg_type: Text
 identifiers:
